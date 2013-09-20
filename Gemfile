@@ -49,12 +49,12 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
-  gem 'angularjs-rails'
-
+  gem 'angularjs-rails', '>= 1.2.0.rc1'
+  gem 'ngmin-rails'
   gem 'uglifier', '>= 1.0.3'
 end
   
-gem 'turbolinks'
+
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -63,7 +63,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'uuidtools'
-gem 'zurb-foundation'
+gem 'bootstrap-sass-rails'
 
 gem 'jquery-rails'
 
